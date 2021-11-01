@@ -1,0 +1,20 @@
+{
+    "name": "nikicoder/test_http_client",
+    "authors": [
+        {
+            "name": "Nikita Bykov",
+            "email": "cyberbloody@yandex.ru"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CommentHTTPClient\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
